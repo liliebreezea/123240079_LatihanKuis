@@ -1,0 +1,71 @@
+body {
+    background: #1A1A1A;
+    font-family: 'Poppins' sans-serif;
+    color: white;
+    position: relative;
+    background: radial-gradient(circle at 90% 100% , #5F30F8 0%, #FC8867 20%, #1A1A1A 50%);
+}
+
+.container {
+    color: blue;
+    position: relative;
+}
+.title {
+    font-weight: bold;
+    background : linear-gradient(to right, #FC8867, #5F30F8);
+   
+    -webkit-background-clip: text;
+    background-clip: text;
+   
+    color: transparent;
+}
+
+.button {
+    background-color: #2D272A;
+    color: white;
+    border-radius: 9px;
+    border: none;
+}
+
+.button:hover {
+    background-color: rgba(43,39,41, 0.7);
+    scale: 1.05px
+}
+
+.card {
+    background: rgba(33,33,33, 0.6);
+    margin: 0 .5em;
+    align-items: center;
+    color: grey;
+    width: 18rem;
+    flex: 0 0 auto
+}
+
+.cards-wrapper {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 1rem;
+}
+
+.name {
+    color: white;
+}
+
+.card span {
+    background: yellow;
+    -webkit-background-clip: text;
+    background-clip: text;
+   
+    color: transparent;
+}
+
+.image-wrapper img {
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
